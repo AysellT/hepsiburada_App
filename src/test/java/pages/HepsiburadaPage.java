@@ -56,9 +56,6 @@ public class HepsiburadaPage {
     @FindBy (xpath = "//*[@text='Alışverişi tamamla']")
     public MobileElement buttonAlisverisiTamamla;
 
-    @FindBy (xpath = "(//*[@class='android.view.View'])[7]")
-    public MobileElement buttonYeniAdressEkle;
-
     @FindBy (xpath = "(//*[@class='android.widget.EditText'])[1]")
     public MobileElement boxKartNo;
 
